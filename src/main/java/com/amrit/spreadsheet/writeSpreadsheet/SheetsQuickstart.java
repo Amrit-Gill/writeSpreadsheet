@@ -101,8 +101,8 @@ public class SheetsQuickstart {
 
         // Prints the names and majors of students in a sample spreadsheet:
         // https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
-        String spreadsheetId = "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms";
-        String range = "Class Data!A2:E";
+        String spreadsheetId = "1-vFCRHzoH4QoFhqhwJTXQ8ksU_KR7EvDjt-AuvUfZOM";
+        String range = "A2:E";
         ValueRange response = service.spreadsheets().values()
             .get(spreadsheetId, range)
             .execute();
